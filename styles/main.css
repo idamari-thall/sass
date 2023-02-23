@@ -1,0 +1,24 @@
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+}
+
+.txt {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+span {
+  color: #4A4FF2;
+}
+/*# sourceMappingURL=main.css.map */
