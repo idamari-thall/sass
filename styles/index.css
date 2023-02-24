@@ -4,7 +4,7 @@
   height: 251px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding-bottom: 80px;
 }
 .intro__title {
   width: 680px;
@@ -84,5 +84,35 @@
 
 .twelfth {
   grid-area: 27/7/33/10;
+}
+
+.service {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.service__txt {
+  height: 106px;
+  width: 635px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+.service__list {
+  height: 106px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=index.css.map */

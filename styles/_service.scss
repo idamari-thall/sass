@@ -1,0 +1,32 @@
+.service {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+    &__txt {
+        height: 106px;
+        width: 635px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    &__list {
+        height: 106px;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+
+}
