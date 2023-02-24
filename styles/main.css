@@ -74,4 +74,8 @@ h2 {
 .highlight {
   color: #4A4FF2;
 }
+
+a:hover {
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */

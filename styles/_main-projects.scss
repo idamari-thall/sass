@@ -1,0 +1,76 @@
+.project {
+    width: 100%;
+    max-width: 1110px;
+
+    display: grid;
+    grid-template-columns: 40% 15% 15% 30%;
+    grid-template-rows: 1fr 2fr;
+    padding-top: 60px;
+
+    &__title {
+        grid-area: 1/1/2/2;
+    }
+
+    &__info {
+        grid-area: 1/4/3/5;
+    }
+
+    &__txt-intro {
+        grid-area: 2/1/3/3;
+    }
+
+}
+
+
+table {
+    width: 100%;
+    height: 80%;
+}
+
+.tbl__1st-clmn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.tbl__2nd-clmn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+td {
+    border-bottom: 1px solid #999;
+    // Färgen gör ingen skillnad, förstår inte varför.
+}
+
+.project-img-big {
+    width: 1110px;
+    height: 660px;
+    object-fit: cover;
+}
+
+.project__txt {
+    width: 100%;
+    max-width: 1110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.project__img-small {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+// Jag fick ingen ordning på bilderna. Försökt läsa mig till hur jag får de till samma strlk men inget fungerar.
