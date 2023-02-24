@@ -1,3 +1,29 @@
+.intro {
+  width: 100%;
+  max-width: 1000px;
+  height: 251px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.intro__title {
+  width: 680px;
+}
+.intro__side {
+  align-self: flex-end;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.overline {
+  text-decoration: overline;
+  text-decoration-color: #999;
+}
+
 .gallery {
   display: grid;
   grid-template-rows: repeat(32 1fr);

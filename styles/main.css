@@ -45,6 +45,7 @@ body {
   font-family: "Mulish", sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -64,7 +65,7 @@ h2 {
   opacity: 0.8;
 }
 
-span {
+.highlight {
   color: #4A4FF2;
 }
 /*# sourceMappingURL=main.css.map */
