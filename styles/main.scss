@@ -4,23 +4,26 @@
 @import 'footer';
 
 
+body {
+    color: fonts.$main-txt-color;
+    font-family: fonts.$font-family;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 h2 {
-    font-family: fonts.$font-family;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    color: fonts.$main-txt-color;
 }
 
 .txt {
-    font-family: fonts.$font-family;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: fonts.$main-txt-color;
     mix-blend-mode: normal;
     opacity: 0.8;
 }
