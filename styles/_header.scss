@@ -3,6 +3,7 @@
     max-width: 1110px;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    grid-row: 1fr;
     justify-content: space-between;
     align-items: center;
 
@@ -15,6 +16,10 @@
     font-size: 24px;
     line-height: 23px;
     letter-spacing: -0.346154px;
+}
+
+.navbar__name {
+    grid-area: 1/1/2/2;
 }
 
 ul {
