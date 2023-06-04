@@ -1,8 +1,16 @@
 .footer {
-    width: 100%;
     max-width: 1110px;
+    width: 100%;
     display: grid;
     grid-template-columns: 4fr 2fr 1fr;
     align-items: center;
     padding-top: 80px;
+}
+
+i {
+    color: #000;
+}
+
+i:hover {
+    color: fonts.$btn-hover-color;
 }

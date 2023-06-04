@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/contact.css">
+    <script src="https://kit.fontawesome.com/8df6a3840c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,25 +28,31 @@
             </div>
         </nav>
     </header>
-    <div class="contact">
-        <div class="contact__info">
-            <div class="contact__txt">
-                <h2>Full set of great features to make your product fresh</h2>
-                <p class="txt">Our favorite brands are our friends! We help them to achieve their goals, they help us to
-                    stay sharp.</p>
-            </div>
 
-            <div class="contact__form">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Message">
-                <button type="submit" class="contact__btn">Submit</button>
+    <main>
+        <div class="contact">
+            <div class="contact__info">
+                <div class="contact__txt">
+                    <h2>Full set of great features to make your product fresh</h2>
+                    <p class="txt">Our favorite brands are our friends! We help them to achieve their goals, they help
+                        us to
+                        stay sharp.</p>
+                </div>
+
+                <form class="contact__form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <button type="submit" class="contact__btn">Submit</button>
+                </form>
+            </div>
+            <div class="contact__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.6978786076884!2d-73.94614219999998!3d40.70265105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bfae0c4ffa1%3A0x4ca1a0fe1d8507a7!2sBroadway%20Triangle%2C%20Brooklyn%2C%20NY%2011206%2C%20USA!5e0!3m2!1sen!2sse!4v1685870849677!5m2!1sen!2sse"
+                    width="1000" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="contact__img">
-            <img src="/images/map.png" alt="Map over Broadway Triangle">
-        </div>
-    </div>
     </main>
     <footer>
         <div class="footer">
@@ -58,11 +65,13 @@
             </div>
             <div class="social">
                 <ul>
-                    <li><a href="#"><img src="/images/basketball.png" alt="basketball logo"></a></li>
-                    <li><a href="#"><img src="/images/instagram.png" alt="instagram logo"></a></li>
-                    <li><a href="#"><img src="/images/twitter.png" alt="twitter logo"></a></li>
+                    <li><a href="#"><i class="fa-solid fa-basketball"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
 </body>
+
+</html>
